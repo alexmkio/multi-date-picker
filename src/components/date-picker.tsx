@@ -1,14 +1,14 @@
 import React, { useState, useMemo } from "react";
 import dayjs from "dayjs";
 import { motion, AnimatePresence } from "motion/react";
-import ExpandIcon from "@/components/icons/expand";
-import ChevronLeftIcon from "@/components/icons/chevron-left";
-import ChevronRightIcon from "@/components/icons/chevron-right";
-import ShrinkIcon from "@/components/icons/shrink";
+import ExpandIcon from "@components/icons/expand";
+import ChevronLeftIcon from "@components/icons/chevron-left";
+import ChevronRightIcon from "@components/icons/chevron-right";
+import ShrinkIcon from "@components/icons/shrink";
 
 type DatePickerProps = {
   selectedDays: dayjs.Dayjs[];
-  setSelectedDays: (days: dayjs.Dayjs[]) => void;
+  setSelectedDays: React.Dispatch<React.SetStateAction<dayjs.Dayjs[]>>;
 };
 
 const DatePicker = (props: DatePickerProps) => {
