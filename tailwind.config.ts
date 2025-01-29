@@ -52,6 +52,7 @@ export default {
         "light-gray": "#B2B2B2",
         "light-gray-2": "#E4E4E4",
         "dark-gray": "#565656",
+        "very-dark-gray": "#262626",
         "moderate-pink": "#C7449B",
         "soft-pink": "#E35982",
         "soft-red": "#ed747b",

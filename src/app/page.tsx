@@ -16,13 +16,14 @@ import { CompanyCardPopup } from "@components/company-card-popup";
 import { CompanyCard } from "@components/company-card";
 import { companyCards, featuredCard } from "@mock-data/company-cards";
 import { FeaturedCard } from "@components/featured-card";
+import Header from "@components/home-header";
 
 export default function Home() {
   const [selectedDays, setSelectedDays] = useState<dayjs.Dayjs[]>([dayjs()]);
 
   return (
-    <div className="bg-light-grayish-blue pt-8 md:pt-6 pb-12 sm:pb-[227px] min-h-dvh">
-      <div className="md:mt-8 w-full max-w-[1352px] mx-auto">
+    <div className="bg-light-grayish-blue pt-[71px] md:pt-[94px] pb-12 sm:pb-[227px] min-h-dvh">
+      <div className="mt-8 md:mt-[56px] w-full max-w-[1352px] mx-auto">
         <div className="flex flex-col sm:flex-row gap-8">
           <div className="sm:w-[76.74%] flex flex-col gap-12 md:gap-6">
             <h1 className="text-xl font-bold">Trending Topics</h1>

@@ -132,3 +132,7 @@
 .popup-dialog::backdrop {
   background-color: rgba(0, 0, 0, 0.6);
 }
+
+.headshot-border {
+  background: linear-gradient(90deg, #8d50d0 0%, #ec7d84 100%);
+}
